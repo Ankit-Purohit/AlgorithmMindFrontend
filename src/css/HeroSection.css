@@ -1,0 +1,20 @@
+
+  .mid-logo{
+    font-size: 3rem;
+  }
+  @keyframes moveRight {
+    0% {
+      transform: translateX(-100%); /* Start off-screen to the left */
+    }
+    100% {
+      transform: translateX(100%); /* Move off-screen to the right */
+    }
+  }
+  
+  .moving-text {
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-size: 2rem; /* Adjust font size as needed */
+    animation: moveRight 5s linear infinite; /* Animation duration and repetition */
+    color: white /* Text color */
+  }
+  
