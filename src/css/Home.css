@@ -1,0 +1,8 @@
+.course_container{
+    /* border:2px solid red; */
+    background-color: #191C21;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

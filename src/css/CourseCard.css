@@ -1,0 +1,30 @@
+.course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:white;
+
+  }
+  .course-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  
+  }
+  
+  .course-title {
+    font-size: 18px;
+    margin: 12px 0;
+    /* border:2px solid red; */
+    color:white;
+  }
+  
+  .course-description {
+    color:white;
+    font-size: 14px;
+
+  }
+  

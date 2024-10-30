@@ -1,26 +1,31 @@
 import React from 'react'
 import '../css/HeroSection.css'
-import backgroundImage from '../images/back.jpg';
+import backgroundImage from '../images/back1.png';
 const HeroSection = () => {
     const backgroundStyle = {
-        backgroundImage: `url(${backgroundImage})`, // Use the imported image
+        backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: '80vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        color: 'white',
+        height: '100%',
+        filter: 'blur(3px)', // Adjust blur strength as needed
+        position: 'absolute',
+        top: '0',
+        left: '0',
+        right: '0',
+        bottom: '0',
+        zIndex: '1',
       };
 
-
   return (
-    <div>
+    <div className="container">
+    
      <div style={backgroundStyle}>
-        <div>
-        <h1 className='mid-logo' >Welcome to AlgorithmMind</h1>
-        </div>
     </div> 
+     <div className="content">
+      <h1 className="mid-logo">Welcome to AlgorithmMind</h1>
+      <p>CSE_FOUNDATIONS COURSES | DATA STRUCTURE & ALGORITHMS</p>
+     </div>
+
     </div>
   )
 }
