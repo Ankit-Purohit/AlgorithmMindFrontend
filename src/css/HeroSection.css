@@ -37,3 +37,28 @@
     font-weight: bold;
     text-align: center;
   }
+
+  
+  button {
+    background: linear-gradient(45deg, #bfd3f1, #3f1f58); /* Gradient background */
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+  button:hover {
+    background: linear-gradient(45deg, #684af0, #310697); /* Reverse gradient on hover */
+    transform: translateY(-3px); /* Lift button */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    transform: translateY(1px); /* Press down effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }

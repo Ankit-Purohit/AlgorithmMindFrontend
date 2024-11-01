@@ -4,6 +4,8 @@ import HeroSection from '../pages/HeroSection'
 import CourseSlider from '../pages/CourseSlider'
 import CourseCard from '../pages/CourseCard'
 import '../css/Home.css';
+import Questions from '../pages/Questions'
+import Footer from '../pages/Footer'
 
 const courses = [
     {
@@ -31,12 +33,15 @@ const courses = [
 const Home = () => {
   return (
     <div>
-
-        <Navbar></Navbar>
+{/* 
+        <Navbar></Navbar> */}
         <HeroSection></HeroSection>
         <div className='course_container'>
          <CourseSlider  courses={courses}/>
         </div>
+
+        <Questions></Questions>
+        <Footer></Footer>
        
 
       

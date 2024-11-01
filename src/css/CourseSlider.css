@@ -3,7 +3,70 @@
     width: 100%;
     max-width: 1200px;
     margin: auto;
+    color:white;
 
+
+  }
+  
+  .course-slider-container h2{
+    /* border:2px solid red; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+  }
+
+/* .fang{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .fang img{
+    width:20%;
+  }
+  .fang h3{
+
+  } */
+  /* fang.css */
+.fang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .fang img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .fang img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+  }
+  
+  .fang h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+    padding: 0 10px;
+  }
+  
+  /* Optional: Add hover effect to the text */
+  .fang h3:hover {
+    color: #0073e6; /* Accent color for hover effect */
   }
   
   .slider-button {

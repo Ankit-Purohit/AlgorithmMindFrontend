@@ -17,7 +17,15 @@ const CourseSlider = ({ courses }) => {
 
   return (
     <div className="course-slider-container">
-      {/* Previous Button */}
+
+
+        <div className='fang'>
+        <img  src="https://media.licdn.com/dms/image/C5612AQGCfrj9L1mXBQ/article-cover_image-shrink_600_2000/0/1627362235506?e=2147483647&v=beta&t=buld20GCl2opSmQetmFxHXZkrx-myyy-l6TyedVjkIY" alt="External Logo" /> 
+        <h3>Cracking fang is now easy with the help of our courses </h3>
+      
+        </div>
+        <h2>Course Available</h2>
+       {/* Previous Button */}
       <button className="slider-button prev-button" onClick={handlePrev}>
         Previous
       </button>

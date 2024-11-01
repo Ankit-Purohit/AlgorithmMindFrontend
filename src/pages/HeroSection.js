@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/HeroSection.css'
-import backgroundImage from '../images/back1.png';
+import backgroundImage from '../images/back.jpg';
 const HeroSection = () => {
     const backgroundStyle = {
         backgroundImage: `url(${backgroundImage})`,
@@ -24,6 +24,7 @@ const HeroSection = () => {
      <div className="content">
       <h1 className="mid-logo">Welcome to AlgorithmMind</h1>
       <p>CSE_FOUNDATIONS COURSES | DATA STRUCTURE & ALGORITHMS</p>
+      <button>Get Access</button>
      </div>
 
     </div>
