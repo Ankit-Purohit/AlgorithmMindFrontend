@@ -6,6 +6,7 @@ import CourseCard from '../pages/CourseCard'
 import '../css/Home.css';
 import Questions from '../pages/Questions'
 import Footer from '../pages/Footer'
+import CarouselSlider from '../pages/CarouselSlider'
 
 const courses = [
     {
@@ -32,14 +33,16 @@ const courses = [
   ];
 const Home = () => {
   return (
-    <div>
+    <div className='papa'>
 {/* 
         <Navbar></Navbar> */}
-        <HeroSection></HeroSection>
+         <CarouselSlider></CarouselSlider>
+         <HeroSection></HeroSection>
+       
+        {/* <Carousel></Carousel> */}
         <div className='course_container'>
          <CourseSlider  courses={courses}/>
         </div>
-
         <Questions></Questions>
         <Footer></Footer>
        

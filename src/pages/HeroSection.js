@@ -1,34 +1,39 @@
-import React from 'react'
-import '../css/HeroSection.css'
-import backgroundImage from '../images/back.jpg';
+import React from 'react';
+import '../css/HeroSection.css';
+import videoSource from '../videos/vid.mp4';  // Make sure to add your video file here
+
 const HeroSection = () => {
-    const backgroundStyle = {
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        height: '100%',
-        filter: 'blur(3px)', // Adjust blur strength as needed
+    const videoStyle = {
         position: 'absolute',
         top: '0',
         left: '0',
         right: '0',
         bottom: '0',
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover',
+        filter: 'blur(2px)',  // Adjust blur strength as needed
         zIndex: '1',
-      };
+    };
 
-  return (
-    <div className="container">
-    
-     <div style={backgroundStyle}>
-    </div> 
-     <div className="content">
-      <h1 className="mid-logo">Welcome to AlgorithmMind</h1>
-      <p>CSE_FOUNDATIONS COURSES | DATA STRUCTURE & ALGORITHMS</p>
-      <button>Get Access</button>
-     </div>
+    return (
 
-    </div>
-  )
-}
+      <div className='hero_con'>
 
-export default HeroSection
+
+        <div className="container">
+            {/* Video Background */}
+            <video style={videoStyle} src={videoSource} autoPlay loop muted />
+
+            {/* Content overlay */}
+            <div className="content">
+                <h1 className="mid-logo">Welcome to AlgorithmMind</h1>
+                <p>CSE_FOUNDATIONS COURSES | DATA STRUCTURE & ALGORITHMS</p>
+                <button className='btn'>Get Access</button>
+            </div>
+        </div>
+        </div>
+    );
+};
+
+export default HeroSection;

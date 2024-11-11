@@ -1,0 +1,110 @@
+/* Basic Layout */
+.app{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    /* border:2px solid red; */
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+
+  }
+  
+  .left-side {
+    width: 15%;
+    padding-right: 20px;
+    /* border:2px solid red; */
+    background-color: #0F0F0F;
+    padding:20px;
+    color:white;
+  }
+
+  .scroll{
+    overflow-y: auto;
+  }
+  
+  .right-side {
+    width: 85%;
+    background-color: #0F0F0F;
+    /* border:2px solid green; */
+    color:white;
+  }
+  
+  .course-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border:2px solid red; */
+  }
+  
+  .course-item {
+    /* border:2px solid red; */
+    width:100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align:center;
+
+    cursor: pointer;
+    /* text-align: center; */
+    font-size: 0.6rem;
+    color:#F1F1F1;
+    
+  }
+  
+  .course-item:hover {
+    /* background-color: #f1f1f1; */
+    background-color: rgb(39,39,39);
+    border-radius: 5px;
+  }
+  
+  .course-videos h2 {
+    /* margin-top: 0; */
+  }
+  
+
+
+
+
+
+
+
+
+  .videos-list {
+    /* border:2px solid red; */
+    padding:10px;
+  }
+  
+  .video-item {
+    /* margin: 20px 0; */
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    padding:8px;
+
+
+  }
+  
+  iframe {
+    width: 25%;
+    height: 28%;
+    border-radius: 8px;
+    /* margin-top: 10px; */
+  }
+ 
+.vid-title-des{
+    /* border:2px solid red; */
+    padding:8px;
+
+  }
+.vid-title-des p{
+  font-size: 0.7rem;
+}
+.vid-title-des h5{
+  font-weight: bold;
+  font-size: 1rem;
+}
+.vid-title-des h5:hover{
+  cursor: pointer;
+}
+

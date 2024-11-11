@@ -6,6 +6,8 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import YoutubeVideos from './pages/YoutubeVideos';
+import Courses from './pages/Courses';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Route path="/login" element={<Login />} /> {/* Login route */}
       <Route path="/signup" element={<Signup />} /> {/* Signup route */}
       <Route path="/youtube" element={<YoutubeVideos/>} />
+      <Route path="/courses" element={<Courses/>}/>
     </Routes>
    </Router> 
   );
