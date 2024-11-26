@@ -12,17 +12,17 @@ const courses = [
     {
       title: "React for Beginners",
       description: "Learn the basics of React and build dynamic web apps.",
-      image: "https://via.placeholder.com/150",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGBLLsHmipaVVUVpPCVnhEa4InyJD0uE5ccr0sxt8cQofj8XOAwwlrp3Hhnh76ws-PWYI&usqp=CAU",
     },
     {
       title: "Advanced JavaScript",
       description: "Master JavaScript concepts for more robust applications.",
-      image: "https://via.placeholder.com/150",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWYHg-GEEZiYGXC9an-y0kl_6Cx5vBL_NRNw&s",
     },
     {
       title: "Web Design Fundamentals",
       description: "Explore web design principles for better UI/UX.",
-      image: "https://via.placeholder.com/150",
+      image: "https://assets.log2base2.com/Assets/courseNewIcon/data-structures-in-c.png",
     },
     {
       title: "Data Structures and Algorithms",

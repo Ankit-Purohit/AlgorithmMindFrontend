@@ -1,6 +1,8 @@
 import React from 'react';
 import '../css/HeroSection.css';
-import videoSource from '../videos/vid.mp4';  // Make sure to add your video file here
+import videoSource from '../videos/vid.mp4';
+  // Make sure to add your video file here
+  import CourseBuyCard from './CourseBuyCard';
 
 const HeroSection = () => {
     const videoStyle = {
@@ -15,16 +17,15 @@ const HeroSection = () => {
         filter: 'blur(2px)',  // Adjust blur strength as needed
         zIndex: '1',
     };
+  
+      
 
     return (
 
       <div className='hero_con'>
-
-
         <div className="container">
             {/* Video Background */}
             <video style={videoStyle} src={videoSource} autoPlay loop muted />
-
             {/* Content overlay */}
             <div className="content">
                 <h1 className="mid-logo">Welcome to AlgorithmMind</h1>

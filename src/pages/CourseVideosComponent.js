@@ -15,7 +15,7 @@ const CourseVideosComponent = ({ course }) => {
                   Your browser does not support the video tag.
                 </video> */}
                       <iframe
-        src="https://www.youtube.com/watch?v=4nIReQJIeCE"
+        src="https://www.youtube.com/embed/videoseries?list=PL9qlROVzK2doDIyRqHF5l5lsue9Nfn0UE"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

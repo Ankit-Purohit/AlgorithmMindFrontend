@@ -170,14 +170,10 @@ const Courses = () => {
  
   return (
     <div className="app">
-     
       <div className="left-side scroll">
-     
         <CourseListComponent courses={courses} onSelectCourse={handleSelectCourse} />
-
       </div>
       <div className="right-side scroll">
-
         <CourseVideosComponent course={selectedCourse} />
       </div>
     </div>

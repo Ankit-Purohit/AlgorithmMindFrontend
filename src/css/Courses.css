@@ -27,6 +27,9 @@
     background-color: #0F0F0F;
     /* border:2px solid green; */
     color:white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
   }
   
   .course-list {

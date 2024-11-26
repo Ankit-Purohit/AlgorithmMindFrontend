@@ -1,34 +1,84 @@
 /* Navbar Styles */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 1rem;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  border: 2px dotted gray;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: #f0a500;
+  text-decoration: underline;
+}
+
+/* Welcome message styling */
+.nav-links li {
+  color: white;
+  /* font-weight: bold; */
+  font-size: 1rem;
+  cursor: default;
+}
+
+/* Logout button styling */
+.logout-button {
+  background-color: #ff5555;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #ff3333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .logo {
-    color: #fff;
-    font-size: 1.5rem;
-    border:2px dotted gray;
-  }
-  
+
   .nav-links {
-    list-style: none;
-    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
+
   .nav-links li {
-    margin-left: 1.5rem;
+    margin: 0.5rem 0;
   }
-  
-  .nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
+
+  .logo {
+    margin-bottom: 1rem;
   }
-  
-  .nav-links a:hover {
-    color: #f0a500;
-  }
-  
+}

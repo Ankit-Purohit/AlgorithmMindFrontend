@@ -1,0 +1,90 @@
+.course-buy-card-container{
+  /* border:10px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(25,28,33);
+
+
+}
+.course-buy-card {
+    /* max-width: 350px; */
+    border-radius: 15px;
+    border: 2px solid wheat;
+    margin:30px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid red; */
+  }
+  
+  .course-buy-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-image {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    /* border:2px solid red; */
+  }
+  
+  .card-content {
+    padding: 20px;
+    background: #191C21;
+    text-align: center;
+  }
+  
+  .card-header h3 {
+    font-size: 1.5rem;
+    color:white;
+    margin: 0;
+  }
+  
+  .card-header p {
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .card-price h2 {
+    color: #E67E22;
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  .card-price p {
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .card-details ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+    color: white;
+  }
+  
+  .card-details li {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .buy-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #3498DB;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background: #2980B9;
+  }
+  
